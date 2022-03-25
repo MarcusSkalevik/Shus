@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Resources/css/style.css">
     <title>Shus</title>
 </head>
 <body>
-    <div class="common" id="banner">
-        <h3 id="header">Shus</h3>
-    </div>
-    <div class="common" id="menu">
-        <div id="hamurger">
-            <div id="myLinks">
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-              </div>
+    <div class="topnav">
+        <a href="#home" id="navn" class="active">SHUS</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
         </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
         <div id="search">
             
         </div>
@@ -32,5 +35,9 @@
     <div class="common" id="footer">
 
     </div>
+
+
+
+    <script src="Resources/js/main.js"></script>
 </body>
 </html>
