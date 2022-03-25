@@ -55,3 +55,10 @@ body{
     color: white;
   }
 
+  /* Style for Secondary Headers */
+  .secondaryHeaders {
+    background-color: var(--color-main);
+    color: white;
+    filter: invert();
+    text-align: center;
+  }
