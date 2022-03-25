@@ -1,1 +1,1 @@
-# Shus is så og sei zalando
+# Shus is god ide
