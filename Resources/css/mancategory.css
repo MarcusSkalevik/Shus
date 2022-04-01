@@ -1,0 +1,27 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-orange: #ffa500;
+  --color-yellow: #ffff00;
+  --color-pink: #ffc0cb;
+  --color-main: #121212;
+  --color-second: #ffffff;
+  --font-main: sans-serif;
+}
+
+#manCategoryHeader {
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  font-family: var(--font-main);
+}
+
+.shoeCategoryPhoto {
+  float: left;
+  width: 33.33%;
+  height: 470px;
+  padding: 5px;
+}

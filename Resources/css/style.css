@@ -3,88 +3,104 @@
   box-sizing: border-box;
 }
 
-:root{
-    --color-orange: #FFA500;
-    --color-yellow:#FFFF00;
-    --color-pink:#FFC0CB;
-    --color-main:#121212;
-    --color-second:#FFFFFF;
-    --font-main: sans-serif; 
+:root {
+  --color-orange: #ffa500;
+  --color-yellow: #ffff00;
+  --color-pink: #ffc0cb;
+  --color-main: #121212;
+  --color-second: #ffffff;
+  --font-main: sans-serif;
 }
 
-body{
-  background: rgb(221,127,168);
-  background: linear-gradient(90deg, rgba(221,127,168,1) 30%, rgba(231,233,148,1) 100%);
+body {
+  background: rgb(221, 127, 168);
+  background: linear-gradient(
+    90deg,
+    rgba(221, 127, 168, 1) 30%,
+    rgba(231, 233, 148, 1) 100%
+  );
   height: 2000px;
 }
-
 
 /*pc*/
 /* Style the navigation menu */
 .topnav {
-    overflow: hidden;
-    position: relative;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    font-size: 40px;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    
-    color: white;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    
-    color: white;
-  }
+  overflow: hidden;
+  position: relative;
+}
 
-  /* Style for Secondary Headers */
-  .secondaryHeaders {
-   font-size: 50px;
-    color: white;
-    filter: invert();
-    text-align: center;
-    margin: auto;
-    width: 33%;
-  }
-  #navn{
-    font-size: 55px;
-  }
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
 
-  /*bilder*/
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
 
-  .bilde{
-    width: auto;
-    height: 250px;
-    margin-left: 2%;
-  }
+/* Style the hamburger menu */
+.topnav a.icon {
+  font-size: 40px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  color: white;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
+/*style the categories for the hamburger*/
+.ham_category {
+}
+
+#man:hover {
+  font-weight: bold;
+}
+
+#woman:hover {
+  font-weight: bold;
+}
+
+#unisex:hover {
+  font-weight: bold;
+}
+
+/* Style for Secondary Headers */
+.secondaryHeaders {
+  font-size: 50px;
+  color: white;
+  filter: invert();
+  text-align: center;
+  margin: auto;
+  width: 33%;
+}
+#navn {
+  font-size: 55px;
+}
+
+/*bilder*/
+
+.bilde {
+  width: auto;
+  height: 250px;
+  margin-left: 2%;
+}
 
 /*mobile*/
-  @media only screen and (max-width: 600px) {
-    body {
-      
-    }
+@media only screen and (max-width: 600px) {
+  body {
   }
+}

@@ -1,0 +1,49 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-orange: #ffa500;
+  --color-yellow: #ffff00;
+  --color-pink: #ffc0cb;
+  --color-main: #121212;
+  --color-second: #ffffff;
+  --font-main: sans-serif;
+}
+
+#womanCategoryHeader {
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  font-family: var(--font-main);
+}
+
+.shoeCategoryPhoto {
+  width: 33.33%;
+  height: 470px;
+  transition: transform 0.2s;
+}
+
+.shoeCategoryPhoto:hover {
+  transform: scale(1.2);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
