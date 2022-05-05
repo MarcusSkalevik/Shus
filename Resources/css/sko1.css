@@ -1,0 +1,30 @@
+#sko1Shop{
+width: auto;
+height: 500px;
+align-content: center;
+transition: transform 0.2s;
+}
+#rightSide{
+    float: right;
+    margin-top: -500px;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(62, 62, 62);
+    color: white;
+    text-align: center;
+    
+}
+#sko1Shop:hover{
+    transform: scale(1.08);
+}
+
+.colors{
+    font-size: large;
+    position: relative;
+    margin-left: 85px;
+    transition: transform 0.2s;
+    float: left;
+}
+.colors:hover{
+    transform: scale(1.1);
+}
