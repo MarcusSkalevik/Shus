@@ -28,3 +28,14 @@ transition: transform 0.2s;
 .colors:hover{
     transform: scale(1.1);
 }
+
+ /*MOBILE */
+ @media only screen and (max-width: 600px) {
+     #rightSide{
+        
+     }
+     .sko{
+        position: absolute; top: 50px; left: 50px;
+     }
+
+ }
